@@ -1,12 +1,57 @@
-# React + Vite
+# Krish's Assembly Endgame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A word guessing game with a programming twist — inspired by Hangman but set in a world where programming languages are fighting extinction. Built using React.js, styled with custom CSS, and enhanced with accessible design and game logic.
 
-Currently, two official plugins are available:
+Guess letters to save languages from being eliminated. Play until you either guess the word or all the languages fall to Assembly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## Expanding the ESLint configuration
+[Play now](https://krishassemblyendgame.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Overview
+
+This game allows users to:
+
+- Guess letters to uncover a hidden programming-related word
+- See languages get "eliminated" with each wrong guess
+- Receive feedback after each guess (correct or incorrect)
+- Win the game by correctly guessing the full word
+- Celebrate with confetti animations on a win
+- Reset and start a new word instantly
+
+## Features
+
+- Real-time game logic with React state
+- Physical and on-screen keyboard input
+- Win/lose detection based on correct letter guesses
+- Language chips that visually disappear on wrong attempts
+- Farewell messages for each eliminated language
+- Fully responsive and touch-optimized
+- Confetti celebration on win using react-confetti
+- Accessible status updates for screen readers
+
+## Technologies Used
+
+### Frontend
+
+- React.js – Component-based UI library
+- nanoid – For generating unique key values
+- react-confetti – Win animation library
+- Custom CSS – For styling, animations, and responsive design
+
+## Folder Structure
+
+/src
+/Components
+App.jsx # Main game logic and layout
+App.css # Full custom styling
+/Data
+languages.js # List of programming languages
+utils.js # Utility functions (random word, farewell messages)
+
+
+## Author
+
+**Krish Dua**  
+[Portfolio](https://krishdua.vercel.app)  
+[LinkedIn](https://www.linkedin.com/in/krish-dua-9202a4272/)
