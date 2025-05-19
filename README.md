@@ -40,13 +40,15 @@ This game allows users to:
 
 ## Folder Structure
 
+<pre>
 /src
   /Components
-App.jsx 
-App.css 
-/Data
-  languages.js
+    App.jsx
+    App.css
+  /Data
+    languages.js
   utils.js
+</pre>
 
 
 ## Author
