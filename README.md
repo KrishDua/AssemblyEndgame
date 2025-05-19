@@ -35,7 +35,6 @@ This game allows users to:
 ### Frontend
 
 - React.js – Component-based UI library
-- nanoid – For generating unique key values
 - react-confetti – Win animation library
 - Custom CSS – For styling, animations, and responsive design
 
@@ -43,11 +42,11 @@ This game allows users to:
 
 /src
 /Components
-App.jsx # Main game logic and layout
-App.css # Full custom styling
+App.jsx 
+App.css 
 /Data
-languages.js # List of programming languages
-utils.js # Utility functions (random word, farewell messages)
+languages.js
+utils.js
 
 
 ## Author
