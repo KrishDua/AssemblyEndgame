@@ -47,7 +47,7 @@ This game allows users to:
     App.css
   /Data
     languages.js
-  utils.js
+    utils.js
 </pre>
 
 
