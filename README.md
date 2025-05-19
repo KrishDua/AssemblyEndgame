@@ -41,12 +41,12 @@ This game allows users to:
 ## Folder Structure
 
 /src
-/Components
+  /Components
 App.jsx 
 App.css 
 /Data
-languages.js
-utils.js
+  languages.js
+  utils.js
 
 
 ## Author
